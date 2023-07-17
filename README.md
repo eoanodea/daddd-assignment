@@ -2,6 +2,8 @@
 
 ## ✏️ Introduction
 
+Individual assignment for the Data Analytics & Data Driven Decisions course.
+
 This project is a set covering problem for unmanned aerial vehicle (UAV) to cover a set of targets. The problem is formulated as a mixed integer linear programming (MILP) model and solved by Gurobi solver.
 
 Based on the Paper [Unmanned aerial vehicle set covering problem considering fixed-radius coverage constraint](https://www.researchgate.net/publication/339793999_Unmanned_Aerial_Vehicle_Set_Covering_Problem_Considering_Fixed-Radius_Coverage_Constraint), the model is extended to only consider the fixed-radius coverage constraint.
@@ -61,12 +63,14 @@ $$ \forall i \in N \\ \forall j \in N$$
 
 ### Objective function
 
-$$\begin{alignat}{3}
+$$
+\begin{alignat}{3}
 & \min \sum_{j \in M}y_j \\
 & \text{s.t.} x_{ij} \le y_j \quad && \forall i \in N, \forall j \in M \\
 & \sum_{j \in M} \alpha_{ij}x_{ij} \ge 1 \quad && \forall i \in N \\
 & x_{ij} \in \{0, 1\} \quad && \forall i \in N, \forall j \in M \\
-& y_j \in \{0, 1\} \quad && \forall j \in M\end{alignat}$$
+& y_j \in \{0, 1\} \quad && \forall j \in M\end{alignat}
+$$
 
 ### Distance
 
