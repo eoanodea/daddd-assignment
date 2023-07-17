@@ -74,7 +74,7 @@ $$
 
 ### Distance
 
-Distance between each demand point is calculated using the Euclidean distance formula: $$\sqrt{(a^x_i - b^x_j)^2 + (a^y_i - b^y_j)^2}$$
+Distance between each demand point is calculated using the [Euclidean distance formula](https://en.wikipedia.org/wiki/Euclidean_distance): $$\sqrt{(a^x_i - b^x_j)^2 + (a^y_i - b^y_j)^2}$$
 
 $\alpha = 1$ if distance is less than or equal to the coverage radius, $0$ otherwise.
 
