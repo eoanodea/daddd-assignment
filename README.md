@@ -61,16 +61,12 @@ $$ \forall i \in N \\ \forall j \in N$$
 
 ### Objective function
 
-$$
-\begin{alignat}{3}
+$$\begin{alignat}{3}
 & \min \sum_{j \in M}y_j \\
 & \text{s.t.} x_{ij} \le y_j \quad && \forall i \in N, \forall j \in M \\
 & \sum_{j \in M} \alpha_{ij}x_{ij} \ge 1 \quad && \forall i \in N \\
 & x_{ij} \in \{0, 1\} \quad && \forall i \in N, \forall j \in M \\
-& y_j \in \{0, 1\} \quad && \forall j \in M
-
-\end{alignat}
-$$
+& y_j \in \{0, 1\} \quad && \forall j \in M\end{alignat}$$
 
 ### Distance
 
