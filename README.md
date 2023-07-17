@@ -8,7 +8,7 @@ This project is a set covering problem for unmanned aerial vehicle (UAV) to cove
 
 Based on the Paper [Unmanned aerial vehicle set covering problem considering fixed-radius coverage constraint](https://www.researchgate.net/publication/339793999_Unmanned_Aerial_Vehicle_Set_Covering_Problem_Considering_Fixed-Radius_Coverage_Constraint), the model is extended to only consider the fixed-radius coverage constraint.
 
-The idea behind this problem is to asssit in a region during disaster recovery. Imaging `demand_points` are people in need of aid within a certain region, how many UAVs are required to cover all demand points, based on the radius of the UAVs (`coverage_radius`).
+The idea behind this problem is to asssit in a region during disaster recovery. Where `demand_points` are people in need of aid within a certain region, how many UAVs are required to cover all demand points, based on the radius of the UAVs (`coverage_radius`).
 
 ## 📦 Installation
 
